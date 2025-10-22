@@ -1,0 +1,8 @@
+Probando la etiqueta <blockquote>: Este texto esta incluido dentro de una etiqueta <blockquote> pensada como otra manera de definir citas
+Probando la etiqueta <pre>:
+Este texto está dentro de la etiqueta <pre>
+y por eso debo verlo con el mismo formato 
+que he utilizado para escribirlo
+Probando la etiqueta <del>: Este texto está dentro de la etiqueta <del>
+Probando la etiqueta <ins>: Este texto está dentro de la etiqueta <ins>
+Probando la etiqueta <bdo dir="rtl">: 

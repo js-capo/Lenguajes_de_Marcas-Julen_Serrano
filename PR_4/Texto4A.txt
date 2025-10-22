@@ -1,0 +1,16 @@
+Ejemplo de las Etiquetas Semánticas
+
+Probando la etiqueta <abbr> que se utiliza para indicar que el texto es una abreviatura: etc. para etcétera o VºBº para Visto Bueno
+
+Probando la etiqueta <acronym> que se utiliza para indicar que el texto es un acrónimo: ovni para Objeto Volante No Identificado o pyme para Pequeña y Mediana Empresa o telemática para Telecomunicación + Informática
+
+Probando la etiqueta <address> que se utiliza para indicar direcciones de contacto (se trata de una etiqueta de bloque):
+Colegio Zabalburu - Esperanza 12 - 944163195
+
+Probando las etiqueta <cite> y <q>que se utilizan para indicar que el texto es una cita. Ejemplo <cite>: Nadie es tan feo como en su DNI, tan guapo como en su Facebook, tan guay como en su Twitter, ni tan bueno como en su CV. Ejemplo <q>: "Nadie es tan feo como en su DNI, tan guapo como en su Facebook, tan guay como en su Twitter, ni tan bueno como en su CV."
+
+Probando las etiquetas <code> y <var> que se utilizan para indicar que el texto se trata de un código informático: for i=0 to 5 y la segunda indica que se hace referencia a una variable: la variable i varía de 0 a 5
+
+Probando las etiquetas <dfn> y <samp> que se utilizan para indicar que el texto se trata de una definición de un término como el término acrónimo cuya definición es Palabra formada por las iniciales, y a veces por más letras, de otras palabras y la segunda indica que el texto incluido en ella se trata de un ejemplo: RENFE es un ejemplo de un acrónimo de Red Nacional de Ferrocarriles Españoles.
+
+Probando la etiqueta <kbd> que se utiliza para indicar que el texto es una entrada de teclado que debe realizar el usuario como por ejemplo: Para reiniciar, pulsa Ctrol+Alt+Supr

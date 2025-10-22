@@ -1,0 +1,12 @@
+Esto es un encabezado Nivel 1
+Esto es un encabezado Nivel 2
+Esto es un encabezado Nivel 3
+Esto es un encabezado Nivel 4
+Esto es un encabezado Nivel 5
+Esto es un encabezado Nivel 6
+
+Esto es un párrafo que estoy escribiendo para comprobar que la etiqueta <p></p>es una etiqueta de bloque que por lo tanto inserta un salto de línea antes de este bloque y otro cuando termina este bloque. A continuación voy a concluir la definición de párrafo para comprobarlo
+
+Este es el segundo párrafo que escribo. Cuando concluya con este párrafo voy a incluir un salto de línea para ver si se aprecia una mayor separación con el tercer párrafo
+
+Y por último este es el tercer párrafo. Tras el final del párrafo incluiré una línea horizontal.

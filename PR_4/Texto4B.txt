@@ -1,0 +1,20 @@
+La instrucción FOR en Javascript
+
+La instrucción FOR permite codificar bucles ya que se utiliza para repetir la ejecución de más instrucciones un determinado número de veces.
+
+De entre todas las instrucciones que permiten codificar bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute. La sintaxis del bucle for se muestra a continuación:
+
+for (inicialización variable; condición; actualización variable) {
+instrucciones a ejecutar en cada iteración
+}
+
+Vemos a continuación un ejemplo de utilización de este bucle, donde se imprimirán los números del 0 al 10 cada uno en una línea diferente:
+
+var i
+for (i=0;i<=10;i++) {
+document.write(i)
+document.write("<br />")
+}
+
+En este caso se inicializa la variable i a 0. Como condición para realizar una iteración, se tiene que cumplir que la variable i sea menor o igual que 10. Como actualización se incrementará en 1 la variable i. 
+

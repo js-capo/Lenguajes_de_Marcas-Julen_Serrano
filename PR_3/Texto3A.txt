@@ -1,0 +1,17 @@
+Ejemplo Etiquetas de Presentación
+
+En este ejemplo vamos a probar los efectos que producen las etiquetas de presentación en el bloque de texto que se muestra a continuación de la línea.
+
+Este es el efecto de la etiqueta b: Negrita
+Este es el efecto de la etiqueta strong: Destacar
+Este es el efecto de la etiqueta i: Cursiva
+Este es el efecto de la etiqueta em: énfasis
+
+
+Este es el efecto de la etiqueta sup:32=9
+Este es el efecto de la etiqueta sub:H2O
+Este es el efecto de una etiqueta tt: Fuente de espaciado fijo
+Este es el efecto de una etiqueta big: Fuente más grande
+Este es el efecto de una etiqueta small: Fuente más peque
+Este es el efecto de dos etiquetas big: Fuente 2 veces más grande
+Este es el efecto de dos etiqueta small: Fuente 2 veces más peque 
