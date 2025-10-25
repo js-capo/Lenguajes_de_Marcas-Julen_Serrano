@@ -3,24 +3,24 @@ UD2: XHTML. Estructura básica
 Tabla de contenidos
 
 Estructura básica de un documento XHTML
-Ejercicio 1
+Práctica 1
 
 Etiquetas básicas. Estructura del texto.
-Ejercicio 2 - A
-Ejercicio 2 - B
+Práctica 2 - A
+Práctica 2 - B
 
 Etiquetas de Presentación
-Ejercicio 3 - A
-Ejercicio 3 - B
+Práctica 3 - A
+Práctica 3 - B
 
 Etiquetas Semánticas
-Ejercicio 4 - A
-Ejercicio 4 - B
+Práctica 4 - A
+Práctica 4 - B
 
 Otras Etiquetas de Texto
-Ejercicio 5 - A
-Ejercicio 5 - B
+Práctica 5 - A
+Práctica 5 - B
 
 Listas, otros elementos y enlaces
-Ejercicio 7 - A (Ejercicios 6)
-Ejercicio 7 - B
+Práctica 7 - A (Práctica 6)
+Práctica 7 - B
