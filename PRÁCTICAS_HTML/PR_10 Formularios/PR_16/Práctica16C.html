@@ -2,18 +2,123 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
 	<head>	
-		<title></title>
+		<title>Formularios | Práctica de Registro</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />		
 	</head>
 	
 	<body>
-
-
-	
-
-
-
-
+		<form method="post" action="mailto:argeme.vila@zabalburu.org" enctype="text/plain">
+			<h1>Formulario de Registro de Datos</h1>
+			<table border="0" width="100%">
+				
+				<tr>
+					<td valign="middle" align="center">
+						<hr />
+						<h3>Información de registro</h3>
+						<hr />
+					</td>
+				</tr>
+				
+				<tr valign="middle" align="center">
+					<td>
+						<p>
+							E-mail: <input type="text" name="email" size="35" maxlength="35" tabindex="1" /> <br />
+							Contraseña: <input type="password" name="contraseña" size="15" maxlength="15" tabindex="2" /> <br />
+							Confirma Contraseña: <input type="password" name="contraseña2" size="15" maxlength="15" tabindex="3" />
+						</p>
+					</td>
+				</tr>
+				
+				<tr valign="middle" align="center">
+					<td valign="middle" align="center">
+						<hr />
+						<h3>Información Personal</h3>
+						<hr />
+					</td>
+				</tr>
+				
+				<tr valign="middle" align="center">
+					<td>
+						<p>
+							Nombre: <input type="text" name="nombre" size="35" maxlength="35" tabindex="4" /> <br />
+							Apellidos: <input type="text" name="apellidos" size="50" maxlength="50" tabindex="5" /> <br />
+							Dirección: <input type="text" name="dir" size="35" maxlength="35" tabindex="6" /> <br />
+							País: <input type="text" name="pais" size="2" maxlength="2" tabindex="7" />
+							C.P: <input type="text" name="cp" size="5" maxlength="5" tabindex="8" /> <br />
+							Teléfono: <input type="text" name="tlfno" size="9" maxlength="9" tabindex="9" />
+						</p>
+					</td>
+				</tr>
+				
+				<tr valign="middle" align="center">
+					<td valign="middle" align="center">
+						<hr />
+						<h3>Tarjeta de crédito</h3>
+						<hr />
+					</td>
+				</tr>
+				
+				<tr valign="middle" align="center">
+					<td>
+						<p>
+							Tipo de tarjeta:
+							<input type="radio" name="tipo_tarjeta" value="mastercard" tabindex="10" /> MasterCard <br />
+							<input type="radio" name="tipo_tarjeta" value="visa" tabindex="11" /> Visa
+						</p>
+						
+						<p>
+							Nº Tarjeta: <input type="text" name="n_tarjeta" size="20" maxlength="20" tabindex="12" />
+						</p>
+						
+						<p>
+							Fecha de Caducidad:
+							
+							Mes:
+							<select name="mes_caducidad" tabindex="13">
+								<option value="default" selected="selected" disabled="disabled">MM</option>
+								<option value="ene">01</option>
+								<option value="feb">02</option>
+								<option value="mar">03</option>
+								<option value="abr">04</option>
+								<option value="may">05</option>
+								<option value="jun">06</option>
+								<option value="jul">07</option>
+								<option value="ago">08</option>
+								<option value="sep">09</option>
+								<option value="oct">10</option>
+								<option value="nov">11</option>
+								<option value="dic">12</option>
+							</select>
+							
+							Año:
+							<select name="año_caducidad" tabindex="14">
+								<option value="default" selected="selected" disabled="disabled">AAAA</option>
+								<option value="12">2012</option>
+								<option value="13">2013</option>
+								<option value="14">2014</option>
+								<option value="15">2015</option>
+								<option value="16">2016</option>
+								<option value="17">2017</option>
+								<option value="18">2018</option>
+								<option value="19">2019</option>
+								<option value="20">2020</option>
+								<option value="21">2021</option>
+								<option value="22">2022</option>
+							</select>
+							
+							<hr />
+						</p>
+					</td>
+				</tr>
+				
+				<tr valign="top" align="center">
+					<td>
+						<input type="submit" value="Enviar Datos" tabindex="15" />
+						<input type="reset" value="Limpiar" tabindex="16" />
+					</td>
+				</tr>
+			</table>
+		</form>
 	</body>	
 </html>
 
