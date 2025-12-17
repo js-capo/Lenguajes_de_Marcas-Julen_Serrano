@@ -9,10 +9,10 @@
 	<body>
 		<form method="get" action="Práctica16D - Resp.html">
 			<h1>Formulario de Registro de Campeonato</h1>
-			<table width="100%" border="0">
+			<table cellpadding="5" width="100%" border="0">
 			
 				<tr align="left" valign="top">
-					<td>
+					<td style="width:33%;">
 						<fieldset>
 							<legend>Selección de carrera:</legend>
 					
@@ -28,19 +28,21 @@
 					</td>
 					
 					
-					<td>
+					<td style="width:33%;">
 						<fieldset>
 							<legend>Clase de carrera:</legend>
 							<select name="tipo_carrera" size="3">
-								<option value="abierto">Abierto(21+)</option> <br />
-								<option value="maestro">Maestro(30+)</option> <br />
-								<option value="veteranos">Veteranos(40+)</option>
+								<option value="abierto">Abierto (21+)</option> <br />
+								<option value="maestro">Maestro (30+)</option> <br />
+								<option value="veteranos">Veteranos (40+)</option> <br />
+								<option value="jovenes">Jóvenes (16-20)</option> <br />
+								<option value="novatos">Novatos (12-15)</option>
 							</select>
 						</fieldset>
 					</td>
 					
 					
-					<td>
+					<td style="width:33%;">
 						<fieldset>
 								<legend>Competición:</legend>
 								
@@ -53,7 +55,7 @@
 				
 				
 				<tr align="left" valign="top">
-					<td>
+					<td style="width:33%;">
 						<fieldset>
 							<legend>Medio de Transporte:</legend>
 							<label><input type="checkbox" name="medio_transporte" value="avion" /> Avión</label> <br />
@@ -65,7 +67,7 @@
 					</td>
 					
 					
-					<td>
+					<td style="width:33%;">
 						<fieldset>
 							<legend>Modo de pago:</legend>
 					
@@ -78,7 +80,7 @@
 					</td>
 					
 					
-					<td>
+					<td style="width:33%;">
 						<fieldset>
 							<legend>Tipo de Tarjeta:</legend>
 					
@@ -93,7 +95,7 @@
 				
 				
 				<tr align="center" valign="top">
-					<td colspan="3">
+					<td colspan="3" style="width:33%;">
 						<hr />
 						<p>
 							<input type="submit" value="Enviar Datos" />
