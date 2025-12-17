@@ -1,0 +1,31 @@
+
+Formulario de Registro en Campeonato
+Selección de carrera:
+
+Clase de carrera:
+
+Competición:
+Fondo
+Marcha
+Silla de Ruedas
+Medio de Transporte:
+Avión
+Barco
+Tren
+Autobús
+Vehículo Propio
+	
+Modo de Pago:
+Efectivo
+Giro Postal
+Cheque
+Tarjeta de Crédito
+	
+Tipo de Tarjeta:
+VISA
+American Express
+4B
+Servired
+Red 6000
+
+

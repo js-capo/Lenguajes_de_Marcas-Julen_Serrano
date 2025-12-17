@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>	
+		<title>Formularios | Práctica 16 - B</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />		
+	</head>
+	
+	<body>
+		<form method="post" action="mailto:argeme.vila@zabalburu.org" enctype="text/plain">
+			<h1>Formulario de Registro</h1>
+			
+			<table border="0" width="100%" cellspacing="5" summary="Formulario de datos personales">
+			
+				<tr>
+					<td style="width:50%;">
+						<p>Nombre: <input type="text" name="Nombre" tabindex="1" /> </p>
+						<p>Primer Apellido: <input type="text" name="Primer Apellido" tabindex="2" /> </p>
+						<p>Segundo Apellido: <input type="text" name="Segundo Apellido" tabindex="3" /> </p>
+						<p>Dirección: <input type="text" name="Dirección" tabindex="4" /> </p>
+						<p>CP: <input type="text" name="Código Postal" size="3" maxlength="5" tabindex="5" /> </p>
+				
+				
+					
+						<p>Estudios:
+							<select name="Tipo de estudios" tabindex="6">
+								<option selected="selected" disabled="disabled">--- Selecciona tus estudios en esta lista ---</option>
+								<optgroup label="Informática y Comunicaciones">	
+									<option value="ASIR">Administración de Sistemas Informáticos en Red</option>
+									<option value="DAW">Desarrollo de Aplicaciones Web</option>
+									<option value="STI">Sistemas de Telecomunicación e Informáticos</option>
+								</optgroup>
+								
+								<optgroup label="Comercio y Administración">	
+									<option value="GT">Gestión del Transporte</option>
+									<option value="AF">Administración y Finanzas</option>
+								</optgroup>
+								
+								<optgroup label="Laboratorios">	
+									<option value="LACC">Laboratorio de Análisis y Control de Calidad</option>
+									<option value="LDC">Laboratorio de Diagnóstico Clínico</option>
+								</optgroup>
+							</select>
+						</p>
+					</td>
+					
+					<td style="width:50%;" valign="top">
+						<p> <label> Sexo <br />
+							<input type="radio" name="Sexo" value="Mujer" tabindex="8" /> Mujer <br />
+							<input type="radio" name="Sexo" value="Hombre" tabindex="9" /> Hombre
+							</label>
+						</p>
+						
+						<p> <label> Turno <br />
+							<input type="radio" name="Turno" value="Mañana" tabindex="10" /> Mañana <br />
+							<input type="radio" name="Turno" value="Tarde" tabindex="11" /> Tarde
+							</label>
+						</p>
+					</td>
+				</tr>
+				
+				<tr valign="top">
+					<td style="width:50%;">
+						<p>Comentarios: <br /> <textarea rows="10" cols="40" name="Comentarios" tabindex="7">Escribe aquí tus comentarios</textarea> </p>
+					</td>
+					
+					<td style="width:50%;">
+						<p> <label> Idiomas <br />
+							<input type="checkbox" name="Idiomas" value="es" checked="checked" tabindex="12" /> Castellano <br />
+							<input type="checkbox" name="Idiomas" value="eu" tabindex="13" /> Euskera <br />
+							<input type="checkbox" name="Idiomas" value="en" tabindex="14" /> Inglés
+							</label>
+						</p>
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="width:50%;" valign="top" align="center" colspan="2">
+						<p> <input type="submit" value="Enviar Datos" tabindex="15" /> <input type="reset" value="Limpiar" tabindex="16" /> </p>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>	
+</html>
+
+

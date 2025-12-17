@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>	
+		<title>Formulario de Registro en Campeonato</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />		
+	</head>
+	
+	<body>
+		<form method="get" action="Práctica16D - Resp.html">
+			<h1>Formulario de Registro de Campeonato</h1>
+			<table width="100%" border="0">
+			
+				<tr align="left" valign="top">
+					<td>
+						<fieldset>
+							<legend>Selección de carrera:</legend>
+					
+							<select name="carrera_elegida">
+								<option value="default" selected="selected" disabled="disabled">-- Selecciona Carrera --</option>
+								<option value="10km">10 Km</option>
+								<option value="5km">5 Km</option>
+								<option value="maraton">Maratón</option>
+								<option value="3km">3 Km</option>
+							</select>
+					
+						</fieldset>
+					</td>
+					
+					
+					<td>
+						<fieldset>
+							<legend>Clase de carrera:</legend>
+							<select name="tipo_carrera" size="3">
+								<option value="abierto">Abierto(21+)</option> <br />
+								<option value="maestro">Maestro(30+)</option> <br />
+								<option value="veteranos">Veteranos(40+)</option>
+							</select>
+						</fieldset>
+					</td>
+					
+					
+					<td>
+						<fieldset>
+								<legend>Competición:</legend>
+								
+								<label><input type="radio" name="comp" value="fondo" /> Fondo</label> <br />
+								<label><input type="radio" name="comp" value="marcha" /> Marcha</label> <br />
+								<label><input type="radio" name="comp" value="silla_ruedas" /> Silla de Ruedas</label>
+						</fieldset>
+					</td>
+				</tr>
+				
+				
+				<tr align="left" valign="top">
+					<td>
+						<fieldset>
+							<legend>Medio de Transporte:</legend>
+							<label><input type="checkbox" name="medio_transporte" value="avion" /> Avión</label> <br />
+							<label><input type="checkbox" name="medio_transporte" value="barco" /> Barco</label> <br />
+							<label><input type="checkbox" name="medio_transporte" value="tren" /> Tren</label> <br />
+							<label><input type="checkbox" name="medio_transporte" value="bus" /> Autobús</label> <br />
+							<label><input type="checkbox" name="medio_transporte" value="vh_propio" /> Vehículo Propio</label>
+						</fieldset>
+					</td>
+					
+					
+					<td>
+						<fieldset>
+							<legend>Modo de pago:</legend>
+					
+							<label><input type="radio" name="pago" value="efectivo" /> Efectivo</label> <br />
+							<label><input type="radio" name="pago" value="g_postal" /> Giro Postal</label> <br />
+							<label><input type="radio" name="pago" value="cheque" /> Cheque</label> <br />
+							<label><input type="radio" name="pago" value="t_credito" /> Tarjeta de Crédito</label>
+							
+						</fieldset>
+					</td>
+					
+					
+					<td>
+						<fieldset>
+							<legend>Tipo de Tarjeta:</legend>
+					
+							<label><input type="radio" name="tarjeta" value="visa" /> VISA</label> <br />
+							<label><input type="radio" name="tarjeta" value="am_express" /> American Express</label> <br />
+							<label><input type="radio" name="tarjeta" value="4b" /> 4B</label> <br />
+							<label><input type="radio" name="tarjeta" value="servired" /> Servired</label> <br />
+							<label><input type="radio" name="tarjeta" value="red_6000" /> Red 6000</label>
+						</fieldset>
+					</td>
+				</tr>
+				
+				
+				<tr align="center" valign="top">
+					<td colspan="3">
+						<hr />
+						<p>
+							<input type="submit" value="Enviar Datos" />
+							<input type="reset" value="Limpiar" />
+						</p>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>	
+</html>
+
+

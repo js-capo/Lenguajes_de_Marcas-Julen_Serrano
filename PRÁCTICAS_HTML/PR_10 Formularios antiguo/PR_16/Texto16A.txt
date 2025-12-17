@@ -1,0 +1,16 @@
+
+Ejemplo uso de atributos accesskey y tabindex y del botón de transferencia de archivos
+
+Nombre (Alt + Shift + n):
+
+Apellidos (Alt + Shift + a):
+
+Dirección (Alt + Shift + i):
+
+Código Postal (Alt + Shift + c):
+
+Ciudad (Alt + Shift + u):
+
+Comentarios (Alt + Shift + o):
+
+Archivo (Alt + Shift + v): 

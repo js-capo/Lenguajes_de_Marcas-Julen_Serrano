@@ -1,0 +1,18 @@
+Formulario de Registro de Datos
+
+Información de registro
+E-mail: 	
+Contraseña: 	
+Confirma Contraseña: 	
+Información Personal
+Nombre: 	
+Apellidos: 	
+Dirección: 	
+País: 	C.P.:
+Teléfono: 	
+Tarjeta de crédito
+Tipo de tarjeta: 	MasterCard
+Visa
+Nº Tarjeta: 	
+Fecha de Caducidad: 	Mes:
+Año: 

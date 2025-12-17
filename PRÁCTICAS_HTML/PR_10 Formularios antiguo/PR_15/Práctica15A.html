@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>	
+		<title>Formularios | Práctica 15 - A</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />		
+	</head>
+	
+	<body>
+		<form method="post" action="mailto:argeme.vila@zabalburu.org" enctype="text/plain">
+			<h1>Ejemplo &lt;fieldset&gt; y &lt;label&gt;</h1>
+			
+			<fieldset>
+				<legend>
+					Información personal
+				</legend>
+				
+				<label id="nom"> Nombre: </label> 
+				<label for="#nom"> <input type="text" name="nombre" /> </label> 
+				
+				<label id="ap"> Apellido: </label>
+				<label for="#ap"> <input type="text" name="apellidos" /> </label>
+				
+				<label id="mayor"> <input type="checkbox" name="mayor_de_edad" value="si" /> </label>
+				<label for="#mayor"> Mayor de edad </label>
+				
+			</fieldset>
+			
+			<fieldset>
+				<legend>
+					Información académica
+				</legend>
+				
+				<label id="uni"> Universidad: </label>
+				<label for="#uni"> <input type="text" name="universidad" /> </label>
+				
+				<label id="titulo"> <input type="checkbox" name="titulo_obt" value="si" /> </label>
+				<label for="#titulo"> Título obtenido </label>
+				
+				<p></p>
+				
+				Idiomas: <br />
+				
+				<label id="eu"> <input type="checkbox" name="idioma" value="euskera" /> </label>
+				<label id="#eu"> Euskera </label> <br />
+				
+				<label id="en"> <input type="checkbox" name="idioma" value="ingles" /> </label>
+				<label id="#en"> Inglés </label> <br />
+				
+				<label id="otros"> <input type="checkbox" name="idioma" value="otros" /> </label>
+				<label id="#otros"> Otros </label>
+				
+				<p></p>
+				
+			</fieldset>
+			
+			<fieldset>
+				<input type="submit" value="Enviar correo" /> 
+				<input type="reset" value="Nuevo registro" />
+			</fieldset>
+		</form>
+	</body>	
+</html>
+
+

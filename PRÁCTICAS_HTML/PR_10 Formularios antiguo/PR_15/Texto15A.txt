@@ -1,0 +1,14 @@
+
+Ejemplo <fieldset> y <label>
+
+Información personal
+Nombre: Apellido: Mayor de edad
+Información académica
+Universidad: Título obtenido
+
+Idiomas:
+Euskera
+Inglés
+Otros
+
+

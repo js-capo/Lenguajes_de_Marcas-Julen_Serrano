@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>	
+		<title>Formularios | Prácticas 16 - A</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />		
+	</head>
+	
+	<body>
+		<form> <!-- No pongo action ni method pq no lo pide el ejercicio(?) -->
+			<h1>Ejemplo uso de atributos <em>accesskey</em> y <em>tabindex</em> y del botón de transferencia de archivos</h1>
+			
+			<p>
+				Nombre <em>(Alt + Shift + n)</em> : <br />
+				<input type="text" name="nombre" maxlength="25" accesskey="n" tabindex="1" />
+			</p>
+			
+			<p>
+				Apellidos <em>(Alt + Shift + a)</em> : <br />
+				<input type="text" name="apellidos" maxlength="25" accesskey="a" tabindex="2" />
+			</p>
+			
+			<p>
+				Dirección <em>(Alt + Shift + i)</em> : <br />
+				<input type="text" name="dir" maxlength="25" accesskey="i" tabindex="3" />
+			</p>
+			
+			<p>
+				Código Postal <em>(Alt + Shift + c)</em> : <br />
+				<input type="text" name="CP" maxlength="5" size="5" accesskey="c" tabindex="4" />
+			</p>
+			
+			<p>
+				Ciudad <em>(Alt + Shift + u)</em> : <br />
+				<input type="text" name="ciudad" maxlength="25" accesskey="u" tabindex="5" />
+			</p>
+			
+			<p>
+				Comentarios <em>(Alt + Shift + o)</em> : <br />
+				<textarea name="comentarios" rows="8" cols="25" accesskey="o" tabindex="6" ></textarea>
+			</p>
+			
+			<p>
+				Archivo <em>(Alt + Shift + v)</em> : <br />
+				<input type="file" accesskey="v" accept="image/*" tabindex="7" />
+			</p>
+		</form>
+	</body>	
+</html>
+
+
