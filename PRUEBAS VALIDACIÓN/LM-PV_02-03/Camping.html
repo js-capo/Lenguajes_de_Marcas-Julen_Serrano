@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="es" lang="es">
+	<head>
+		<title lang="es"> </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+	</head>
+	<body>
+		<form method="post" action="mailto:argeme.vila@zabalburu.org">
+			<table border="0" width="100%" summary="Tabla de formulario para camping">
+				<tr>
+					<td colspan="2" align="center">
+					
+						<hr />
+						
+						<h1>Formulario de Registro de clientes Camping El Pino</h1>
+						
+						<hr />
+					
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td align="right">
+						<label><p id="numpar">Nº Parcela:</p></label>
+						<label><p id="nomcomp">Nombre completo:</p></label>
+						<label><p id="passsocio">Contraseña socio:</p></label>
+					</td>
+					
+					<td align="left">
+					
+						<label for="#numpar">	
+							<p>
+								<select name="num_parcela" tabindex="1">
+									<option selected="selected" disabled="disabled" value="default">-- Selecciona Parcela --</option>
+									<em><optgroup label="Zona Piscina"></em>
+										<option value="opc1">01</option>
+										<option value="opc2">02</option>
+										<option value="opc3">03</option>
+									</optgroup>
+											
+									<em><optgroup label="Zona Río"></em>
+										<option value="opc4">04</option>
+										<option value="opc5">05</option>
+										<option value="opc6">06</option>
+									</optgroup>
+								</select>
+							</p>
+						</label>	
+							
+						<label for="#nomcomp">
+							<p><input type="text" name="nombre_completo" size="80" tabindex="2" /></p>
+						</label>
+					
+						<label for="#passsocio">
+							<p><input type="password" name="contraseña_socio" size="10" tabindex="3" /></p>
+						</label>
+					
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td style="width:50%" rowspan="3" align="center" valign="bottom">
+					
+						<img src="Images/camping.jpg" alt="Tienda de Camping" title="Tienda de Camping" width="50%" />
+					
+					</td>
+					
+					<td>
+						<fieldset>
+							<legend>Tipo de alojamiento:</legend>
+							<label><input type="radio" name="tipo_alojamiento" value="tienda_individual" tabindex="4" />Tienda individual</label> <br />
+							<label><input type="radio" name="tipo_alojamiento" value="tienda_familiar" tabindex="5" />Tienda Familiar</label> <br />
+							<label><input type="radio" name="tipo_alojamiento" value="caravana" tabindex="6" />Caravana</label> <br />
+							<label><input type="radio" name="tipo_alojamiento" value="bungalow" tabindex="7" />Bungalow</label>
+						</fieldset>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td>
+						<fieldset>
+							<legend>Extras:</legend> 
+							<label><input type="checkbox" name="extras" value="automovil" tabindex="8" />Automóvil</label>
+							<label><input type="checkbox" name="extras" value="conexion_a_luz" tabindex="9" />Conexión a luz</label>
+							<label><input type="checkbox" name="extras" value="animales" tabindex="10" />Animales</label>
+						</fieldset>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td>
+						<fieldset>				
+							<legend>Modo de pago:</legend>
+							<label><input type="radio" name="modo_pago" value="contado" tabindex="11" />Contado</label> <br />
+							<label><input type="radio" name="modo_pago" value="tarjeta" tabindex="12" />Tarjeta</label> <br />
+							<label><input type="radio" name="modo_pago" value="transferencia_bancaria" tabindex="13" />Transferencia Bancaria</label>
+						</fieldset>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" align="center">
+						<hr />
+					
+						<input type="submit" value="Enviar Datos" tabindex="14" />
+					
+						<input type="reset" value="Limpiar" tabindex="15" />
+					</td>
+				</tr>
+			</table>
+		</form>	
+	</body>
+</html>
+
+
+
+			
